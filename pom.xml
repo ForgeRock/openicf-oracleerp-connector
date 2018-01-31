@@ -35,19 +35,15 @@
     <packaging>bundle</packaging>
     <name>OracleERP Connector</name>
     <description>Connector for OracleERP</description>
-    <url>http://openicf.forgerock.org/connectors/oracleerp-connector</url>
+    <url>https://github.com/ForgeRock/openicf-oracleerp-connector</url>
     <issueManagement>
-        <system>jira</system>
-        <url>https://bugster.forgerock.org/jira/browse/OPENICF/component/10187</url>
+        <system>github</system>
+        <url>https://github.com/ForgeRock/openicf-oracleerp-connector/issues</url>
     </issueManagement>
-    <ciManagement>
-        <system>jenkins</system>
-        <url>https://ci.forgerock.org/view/OpenICF/job/OpenICF - oracleerp-connector - postcommit/</url>
-    </ciManagement>
     <scm>
-        <connection>scm:git:ssh://git@stash.forgerock.org:7999/openicf/oracleerp-connector.git</connection>
-        <developerConnection>scm:git:ssh://git@stash.forgerock.org:7999/openicf/oracleerp-connector.git</developerConnection>
-        <url>http://stash.forgerock.org/projects/OPENICF/repos/oracleerp-connector/browse/</url>
+        <connection>scm:git:git@github.com:forgerock/openicf-oracleerp-connector.git</connection>
+        <developerConnection>scm:git:git@github.com:forgerock/openicf-oracleerp-connector.git</developerConnection>
+        <url>scm:git:git@github.com:forgerock/openicf-oracleerp-connector.git</url>
     </scm>
     <properties>
         <connectorPackage>org.identityconnectors.oracleerp</connectorPackage>
