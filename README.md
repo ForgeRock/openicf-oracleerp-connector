@@ -25,9 +25,11 @@ Identity Platform to provision users to an Oracle Enterprise Resource Planning (
  develop or fork this repository. See the legal disclaimer bit below.
  
 ## Compatability
-Works with [OpenICF 1.5](https://backstage.forgerock.com/docs/openicf/1.5/release-notes/index.html). Please read the release notes for more information on compatability with Java Connector Servers and version of OpenIDM/IDM. 
+Works with [OpenICF 1.5](https://backstage.forgerock.com/docs/openicf/1.5/release-notes/index.html). Please read the 
+release notes for more information on compatability with Java Connector Servers and version of OpenIDM/IDM. 
  
-**NOTE:** The connector uses jdbc6 which is the JDBC driver for Oracle Database 11g. The latest Oracle database version (at time of writing Feb 2018) is Oracle Database 12c which uses the ojdbc7.jar driver.  
+**NOTE:** The connector uses jdbc6 which is the JDBC driver for Oracle Database 11g. The latest Oracle database version 
+(at time of writing Feb 2018) is Oracle Database 12c which uses the ojdbc7.jar driver.  
 
 ## Building
 The code in this repository has binary dependencies that live in the ForgeRock maven repository. Maven can be configured
@@ -36,7 +38,7 @@ The code in this repository has binary dependencies that live in the ForgeRock m
 
 To get and build this repository you will need a build environment that has git, maven and a JDK installed. 
 
-This has been confirmed as buildin with Maven 3.3.3, Oracle JDK 1.8.0_91.
+This has been confirmed as building with Maven 3.3.3, Oracle JDK 1.8.0_91.
 
 ### Install dependency
 Download ojdbc6.jar from `http://www.oracle.com/technetwork/database/enterprise-edition/jdbc-112010-090769.html`
@@ -48,7 +50,7 @@ From your download directory:
 
 ```
 $ git clone <repo_url>
-$ cd <repo_url>
+$ cd <repo_dir>
 $ mvn clean install
 ```
 
