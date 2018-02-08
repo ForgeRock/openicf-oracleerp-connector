@@ -15,7 +15,7 @@
  * Copyright 2018 ForgeRock AS.
  */
 -->
-# oracle-connector
+# oracleerp-connector
 
 An OpenICF connector built to work with the [ForgeRock Identity Management Provisioning System]
 (https://www.forgerock.com/platform/identity-management/identity-provisioning). This connector allows the ForgeRock 
